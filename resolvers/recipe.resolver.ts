@@ -28,7 +28,8 @@ const resolvers = {
 			Object.assign(updatedMeal, {
 				name,
 				category,
-				tribe, rating
+				tribe,
+				rating
 			})
 			return updatedMeal
 		}
